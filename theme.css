@@ -593,12 +593,12 @@ h6 {
   border-bottom: 1px solid;
   border-image-slice: 1;
   border-width: 1px;
-  border-image-source: linear-gradient(to right, transparent, var(--text-accent), transparent);
+  border-image-source: linear-gradient(to right, var(--text-accent), transparent);
 }
 
 .cm-line hr::after,
 .markdown-preview-view hr::after {
-  content: '§';
+  /* content: '§'; */
   display: inline-block;
   position: absolute;
   left: 50%;
